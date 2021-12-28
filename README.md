@@ -2,11 +2,11 @@
 
 ## Install
 
-:::
+```
   git clone git@github.com:kyoheiii/fanaticismD
   cd fanaticismD
   docker-compose up -d --build
-:::
+```
 
 ## Usage
 Docker Desktopの場合
