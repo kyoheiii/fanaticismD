@@ -1,0 +1,17 @@
+
+version: '3'
+services:
+  rstudio:
+    build:
+      context: .
+      dockerfile: ./_docker/Dockerfile
+    image: tidyverse:3.6.3_jp
+    container_name: tidyverse_jp
+    environment: 
+      - PASSWORD=rstudio
+    ports:
+      - 8787:8787
+    volumes:
+      - ./:/home/rstudio
+    tty: true
+    stdin_open: true
