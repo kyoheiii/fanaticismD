@@ -15,6 +15,11 @@ RUN apt-get update && apt-get install -y \
   fonts-ipaexfont \
   fonts-noto-cjk
 
+
+RUN apt-get update && apt-get install -y \
+  build-essential \
+  libglpk40
+
 COPY install_r.r install_r.r
 
 RUN ["r", "install_r.r"]
