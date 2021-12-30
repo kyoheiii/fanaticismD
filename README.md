@@ -3,7 +3,7 @@
 ## Install
 
 ```
-  git clone git@github.com:kyoheiii/fanaticismD
+  git clone https://github.com/kyoheiii/fanaticismD
   cd fanaticismD
   docker-compose up -d --build
 ```
